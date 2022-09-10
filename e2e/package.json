@@ -1,0 +1,23 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "selenium-standalone install > ./logs/driver.log &",
+    "start": "selenium-standalone start > ./logs/server.log &",
+    "test": "mocha --config conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "config": "^3.3.7",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "selenium-standalone": "^8.2.0",
+    "selenium-webdriver": "^4.4.0",
+    "winston": "^3.8.1"
+  }
+}

@@ -1,0 +1,13 @@
+2022-09-10 11:48:00 => Driver has Initialized
+2022-09-10 11:48:00 => Opening chrome browser
+2022-09-10 11:48:04 => Browser window maximized
+2022-09-10 11:48:04 => Deleted Browser Cookies
+2022-09-10 11:48:09 => The test will run on prod environment
+2022-09-10 11:48:09 => The url is: https://the-internet.herokuapp.com/login
+2022-09-10 11:48:09 => Set Implicit Wait Globally
+2022-09-10 11:48:09 => The title on browser window is The Internet
+2022-09-10 11:48:09 => Entered value into username textbox
+2022-09-10 11:48:09 => Entered value into password textbox
+2022-09-10 11:48:09 => Clicked login button
+2022-09-10 11:48:10 => Clicked logout button
+2022-09-10 11:48:10 => Browser Closed

@@ -1,0 +1,9 @@
+{
+  "url": "https://the-internet.herokuapp.com/login",
+  "username": "tomsmith",
+  "password": "SuperSecretPassword!",
+  "browser": "chrome",
+  "protocol": "http",
+  "host": "localhost",
+  "port": 4444
+}

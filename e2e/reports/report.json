@@ -1,0 +1,220 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-10T06:18:00.717Z",
+    "end": "2022-09-10T06:18:10.537Z",
+    "duration": 9820,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ef40b5e4-6e47-4ca1-9757-800c80c73a20",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before all\" hook in \"{root}\"",
+          "fullTitle": "\"before all\" hook in \"{root}\"",
+          "timedOut": false,
+          "duration": 8367,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await common.getMaximizeWindow();\nawait common.getDeleteAllCookies();\nawait common.getURL();\nawait common.setImplicitWait();",
+          "err": {},
+          "uuid": "d6e06886-9f5f-4c4a-a169-fa3d5e142151",
+          "parentUUID": "ef40b5e4-6e47-4ca1-9757-800c80c73a20",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [
+        {
+          "title": "\"after all\" hook in \"{root}\"",
+          "fullTitle": "\"after all\" hook in \"{root}\"",
+          "timedOut": false,
+          "duration": 61,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await common.getQuitBrowser();",
+          "err": {},
+          "uuid": "670adfaa-de64-46ea-90d1-93e04d8d8724",
+          "parentUUID": "ef40b5e4-6e47-4ca1-9757-800c80c73a20",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "84f22ee5-d665-4765-bcd7-97d5bdf894f6",
+          "title": "title test",
+          "fullFile": "D:\\Projects\\workspaces\\git\\automation-framework\\e2e\\specs\\loginSpec.js",
+          "file": "\\specs\\loginSpec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify the title on login page",
+              "fullTitle": "title test verify the title on login page",
+              "timedOut": false,
+              "duration": 11,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await common.getWindowTitle(\"The Internet\");",
+              "err": {},
+              "uuid": "7b220a66-fcce-49d3-a11c-162747f5e969",
+              "parentUUID": "84f22ee5-d665-4765-bcd7-97d5bdf894f6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7b220a66-fcce-49d3-a11c-162747f5e969"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        },
+        {
+          "uuid": "092aaaf2-61e4-4c1d-b77a-aca6b47b17c2",
+          "title": "login Test",
+          "fullFile": "D:\\Projects\\workspaces\\git\\automation-framework\\e2e\\specs\\loginSpec.js",
+          "file": "\\specs\\loginSpec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify user is logged in successfully!",
+              "fullTitle": "login Test verify user is logged in successfully!",
+              "timedOut": false,
+              "duration": 770,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await loginPage.loginToApp();",
+              "err": {},
+              "uuid": "497be765-14a8-495c-8876-49d951515048",
+              "parentUUID": "092aaaf2-61e4-4c1d-b77a-aca6b47b17c2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "497be765-14a8-495c-8876-49d951515048"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 770,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        },
+        {
+          "uuid": "2637ee9b-8b04-47bf-a549-b5d74e1a7980",
+          "title": "logout test",
+          "fullFile": "D:\\Projects\\workspaces\\git\\automation-framework\\e2e\\specs\\logoutSpec.js",
+          "file": "\\specs\\logoutSpec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify user is logged out successfully!",
+              "fullTitle": "logout test verify user is logged out successfully!",
+              "timedOut": false,
+              "duration": 603,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await logoutpage.logoutFromApp();",
+              "err": {},
+              "uuid": "ea571ca5-597c-47eb-a3e1-481fe4a1ac15",
+              "parentUUID": "2637ee9b-8b04-47bf-a549-b5d74e1a7980",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ea571ca5-597c-47eb-a3e1-481fe4a1ac15"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 603,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 60000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 60000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "reportTitle": "Automation Report",
+        "reportFilename": "report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
