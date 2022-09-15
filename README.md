@@ -1,4 +1,7 @@
- # A bare minimum automation framework
+# A bare minimum automation framework
+
+### Change Directory
+```cd e2e``` 
 
 ### Install Package Dependencies
 ```npm install```
